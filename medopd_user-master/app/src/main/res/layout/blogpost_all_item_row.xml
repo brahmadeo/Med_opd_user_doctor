@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/dimen_4dp"
+    app:cardElevation="@dimen/dimen_4dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    app:cardMaxElevation="5dp"
+    tools:layout_editor_absoluteX="5dp"
+    tools:layout_editor_absoluteY="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--IMAGE RL-->
+        <RelativeLayout
+            android:id="@+id/RL1"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_one"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/dimen_14sp"
+            android:layout_below="@+id/RL1"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textColor="@color/blackColor"/>
+
+        <!--<RelativeLayout
+            android:id="@+id/RL2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RL1"
+            android:padding="@dimen/dimen_4dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_centerVertical="true">
+
+            &lt;!&ndash;NAME TV&ndash;&gt;
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="hello bird"
+                android:textSize="@dimen/dimen_14sp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:textColor="@color/blackColor"/>
+
+        </RelativeLayout>-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

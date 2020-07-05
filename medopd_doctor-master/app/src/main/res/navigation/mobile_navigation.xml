@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.razahamid.medopddoctor.Home.ui.Account.MyAccountFragment"
+        android:label="@string/menu_Home"
+        tools:layout="@layout/fragment_my_account">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.razahamid.medopddoctor.Profile.Profile"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_messages"
+        android:name="com.razahamid.medopddoctor.Home.ui.Messages.MessagesFragment"
+        android:label="@string/menu_messages"
+        tools:layout="@layout/fragment_messages" />
+    <fragment
+        android:id="@+id/nav_myTest"
+        android:name="com.razahamid.medopddoctor.Home.ui.MyTests.MyTests"
+        android:label="@string/menu_my_test"
+        tools:layout="@layout/fragment_my_tests" />
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.razahamid.medopddoctor.Home.ui.Account.MyAccountFragment"
+        android:label="@string/menu_Home"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/nav_rate"
+        android:name="com.razahamid.medopddoctor.Home.ui.Account.MyAccountFragment"
+        android:label="@string/menu_Home"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.razahamid.medopddoctor.Home.ui.Account.MyAccountFragment"
+        android:label="@string/menu_Home"
+        tools:layout="@layout/fragment_my_account" />
+    <fragment
+        android:id="@+id/nav_RedeemPoints"
+        android:name="com.razahamid.medopddoctor.PaymentMethod.PaymentFragment"
+        android:label="Payments"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/nav_signOut"
+        android:name="com.razahamid.medopddoctor.ExtraFiles.SignOut"
+        android:label="Log out"
+        tools:layout="@layout/fragment_sign_out"/>
+</navigation>

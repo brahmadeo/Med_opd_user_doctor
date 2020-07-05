@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "68870098148",
+    "firebase_url": "https://medopd-62177.firebaseio.com",
+    "project_id": "medopd-62177",
+    "storage_bucket": "medopd-62177.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68870098148:android:a2919548bde23ceea230f1",
+        "android_client_info": {
+          "package_name": "com.razahamid.medopd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68870098148-2fhqpmse1q5875g90u9086n6g12e07cm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razahamid.medopd",
+            "certificate_hash": "bfd9a088346f405e41923548a6fbb924de918d6a"
+          }
+        },
+        {
+          "client_id": "68870098148-ejggajh2gij4g6l8uetd2hqg8j3m2adh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsr8OK2dnmzTPBl50F_wtggUe4hYcR7qE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68870098148-ejggajh2gij4g6l8uetd2hqg8j3m2adh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

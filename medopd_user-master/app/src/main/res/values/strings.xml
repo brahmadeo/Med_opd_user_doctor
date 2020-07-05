@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Medopd</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_myAccount">My Account</string>
+    <string name="menu_messages">Chat Support</string>
+    <string name="menu_share">Refer and Earn</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_rate_app">Rate App</string>
+    <string name="menu_my_test">My Tests</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="retry">RETRY</string>
+    <string name="error_head">Something went wrong..</string>
+    <string name="error_details">An alien is probably blocking your signal.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="log_out_user">Log out user</string>
+    <string name="progress_uploading">Progress Uploading</string>
+    <string name="upload_success">Upload Success</string>
+    <string name="upload_failure">Upload Failure</string>
+    <string name="pin_not_matching">PIN not matching</string>
+</resources>

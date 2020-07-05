@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="actionBarSize">56dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">200dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="viewpager_margin_overlap">-60dp</dimen>
+    <dimen name="viewpager_margin_overlap_payment">-30dp</dimen>
+
+    <!--genaral spacing-->
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">3dp</dimen>
+    <dimen name="spacing_medium">5dp</dimen>
+    <dimen name="spacing_xmedium">7dp</dimen>
+    <dimen name="spacing_middle">10dp</dimen>
+    <dimen name="spacing_large">15dp</dimen>
+    <dimen name="spacing_smlarge">18dp</dimen>
+    <dimen name="spacing_mlarge">20dp</dimen>
+    <dimen name="spacing_mxlarge">25dp</dimen>
+    <dimen name="spacing_xlarge">35dp</dimen>
+    <dimen name="spacing_xmlarge">40dp</dimen>
+    <dimen name="spacing_xxlarge">50dp</dimen>
+    <dimen name="spacing_xxxlarge">55dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="input_edit_text">20sp</dimen>
+    <dimen name="tile_text_size">20sp</dimen>
+    <dimen name="description_text_size">18sp</dimen>
+    <dimen name="new_add_text">20sp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="activityPadding">16dp</dimen>
+    <dimen name="placeholderImage">35dp</dimen>
+    <dimen name="placeholderTextHeight">15dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="divideLine">1dp</dimen>
+    <dimen name="font_headline">12dp</dimen>
+    <dimen name="font_details">15dp</dimen>
+    <dimen name="toolbar_text_size">21dp</dimen>
+    <dimen name="end_margin">16dp</dimen>
+    <dimen name="start_margin">16dp</dimen>
+    <dimen name="divider_top_margin">16dp</dimen>
+    <dimen name="top_margin">6dp</dimen>
+    <!-- error page -->
+    <dimen name="stroke">1dp</dimen>
+    <dimen name="retryCorners">4dp</dimen>
+    <dimen name="error_head_margin_top">24dp</dimen>
+    <dimen name="error_head_text_size">18dp</dimen>
+    <dimen name="error_details_margin_top">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+</resources>

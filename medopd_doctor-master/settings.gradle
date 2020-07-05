@@ -1,0 +1,2 @@
+rootProject.name='Medopd Doctor'
+include ':app'

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_grey"
+            android:title="@string/menu_profile" />
+
+
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="@string/menu_messages" />
+        <item
+            android:id="@+id/nav_RedeemPoints"
+            android:icon="@drawable/ic_inr_two"
+            android:title="Payments" />
+        <item
+            android:id="@+id/nav_myTest"
+            android:icon="@drawable/ic_lab_test"
+            android:title="@string/menu_my_test"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="@string/menu_rate_app" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact_mail_black_24dp"
+            android:title="@string/menu_contact" />
+        <item
+            android:id="@+id/nav_signOut"
+            android:title="Log out" />
+    </group>
+</menu>
